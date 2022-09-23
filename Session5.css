@@ -1,0 +1,71 @@
+body{
+    margin:0px;
+}
+.main_section1{
+    /* border:3px solid red; */
+    justify-content: space-between;
+    box-shadow: 0px 2px 5px -3px grey;
+    display:flex;
+    align-items: center;
+}
+.logo_div img{
+    width: 150px;
+}
+.menu_div ul{
+        display:flex;
+}
+/*instead display:inline*/
+.menu_div ul li{
+        list-style-type: none;
+        padding: 20px;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+    }    
+.icon_div i{
+    padding: 20px;
+    font-size: 20px;
+}   
+
+.main_div2{
+    text-align: center;
+}
+
+.main_div2 h3{
+        font-family: 'Passions Conflict', cursive;
+        font-size: 50px;
+        color:#82bb2e;
+        margin-bottom: 10px;
+
+}
+
+.main_div2 h2{
+        font-family: 'Poppins';
+        margin: 10px;
+        background-image: url(amino/bg-title.png);
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        padding-bottom:50px;
+}
+
+.main_div3{
+        display: flex;
+        justify-content: space-around;
+        margin:60px 20px;
+}
+
+.product_div img{
+    height: 300px;
+    width:320px;
+}
+.product_div{
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    border:1px solid rgb(235, 235, 235);
+    border-radius: 8px;
+}
+
+.product_div h5{
+    color: #82bb2e;
+}
+
+
